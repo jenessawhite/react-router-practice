@@ -7,7 +7,7 @@ import api from './Api';
 import './normalize.css';
 import './App.css';
 
-export default class aboutPage extends Component {
+export default class AboutPage extends Component {
   constructor(props) {
     super(props);
     this.state = {

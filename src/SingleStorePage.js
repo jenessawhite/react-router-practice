@@ -5,7 +5,7 @@ import api from './Api';
 import './normalize.css';
 import './App.css';
 
-export default class store extends Component {
+export default class Store extends Component {
   render() {
     return (
       <div>
