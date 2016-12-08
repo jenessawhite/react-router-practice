@@ -1,19 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, hashHistory, IndexRoute} from 'react-router';
+import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import App from './App';
-import HomePage from './Home';
-import AboutPage from './AboutPage';
-import StoresList from './StoresList';
-import ErrorPage from './App';
+import Home from './Home';
+import About from './About';
+import Stores from './StoresList';
+import Store from './SingleStorePage';
+import ErrorPage from './404page';
 import './index.css';
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={HomePage}/>
-      <Route path="about" component={AboutPage} />
-      <Route path="stores" component={StoresList} />
+      <IndexRoute component={Home}/>
+      <Route path="about" component={About} />
+      <Route path="stores" component={Stores}>
+        <Route path="stores/:id" component={Store}/>
+      </Route>
     </Route>
     <Route path="*" component={ErrorPage}></Route>
   </Router>

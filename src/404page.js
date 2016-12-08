@@ -1,15 +1,24 @@
 import React, { Component } from 'react';
+import './App.css';
 
 export default class ErrorPage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      }
-  }
   render() {
     return (
-      <div>
-        MyComponent
+      <div className="error404">
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
+        <h1>404</h1>
       </div>
     );
   }
