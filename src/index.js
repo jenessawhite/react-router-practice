@@ -14,9 +14,8 @@ ReactDOM.render(
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="about" component={About} />
-      <Route path="stores" component={Stores}>
-        <Route path="stores/:id" component={Store}/>
-      </Route>
+      <Route path="stores" component={Stores} />
+      <Route path="stores/:id" component={Store} />
     </Route>
     <Route path="*" component={ErrorPage}></Route>
   </Router>

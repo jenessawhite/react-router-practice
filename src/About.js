@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import {Link} from 'react-router';
-import axios from 'axios';
-import Stores from './StoresList';
-import api from './Api';
 import './normalize.css';
 import './App.css';
 
