@@ -20,7 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 6. Go to localhost:3000 to view the project.
 
-7. If you run into an unexpected behavior, please let us know!
+7. If you run into an unexpected behavior, please let me know!
 
 ## Sending Feedback
 
